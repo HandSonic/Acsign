@@ -1,6 +1,7 @@
 name: 'Acsign'
 
 on:
+  workflow_dispatch:
   push:
   schedule:
     - cron: '0 17 * * *' # 北京时间凌晨1点
